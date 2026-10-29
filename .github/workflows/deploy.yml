@@ -35,5 +35,5 @@ jobs:
             sudo systemctl enable nginx
             sudo systemctl start nginx
             sudo rm -rf /var/www/html/*
-            sudo cp -r /home/ubuntu/website/* /var/www/html/
+            sudo cp -r /home/ubuntu/mywebsite/* /var/www/html/
             sudo systemctl restart nginx
